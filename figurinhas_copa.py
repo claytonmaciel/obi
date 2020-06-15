@@ -1,3 +1,7 @@
+#=============================#
+# Questão Figurinhas da Copa  #
+#=============================#
+
 n, c, m = [int(i) for i in input().split()]
 fcar = [int(i) for i in input().split()]
 fcom = [int(i) for i in input().split()]
