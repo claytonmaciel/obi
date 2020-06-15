@@ -1,3 +1,7 @@
+#==========================#
+# Questão Prêmio do Milhão #
+#==========================#
+
 dias = int(input())
 acessos = []
 for i in range(dias):
