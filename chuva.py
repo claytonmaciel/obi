@@ -1,23 +1,27 @@
+#==========================#
+# Questão Chuva            #
+#==========================#
+
 lin, col = [int(i) for i in input().split()]
 parede = []
 
 def molhar(l,c):
     try:
-        if parede[l+1][c] == ".":
+        if parede[l+1][c] == ".": # restrição 1
             parede[l + 1][c] = 'o'
             molhar(l + 1, c)
     except:
         pass
 
     try:
-        if parede[l][c + 1] == '.' and parede[l + 1][c] == '#':
+        if parede[l][c + 1] == '.' and parede[l + 1][c] == '#':  # restrição 2
             parede[l][c + 1] = 'o';
             molhar(l, c + 1);
     except:
         pass
 
     try:
-        if parede[l][c - 1] == '.' and parede[l + 1][c] == '#':
+        if parede[l][c - 1] == '.' and parede[l + 1][c] == '#': # restrição 3
             parede[l][c - 1] = 'o';
             molhar(l, c - 1);
     except:
