@@ -1,3 +1,8 @@
+#=========================#
+# Questão Lingua_P        #
+#=========================#
+
+
 #forma 1
 frase = input().strip()
 frase = frase.replace("pppp","+") #quando tem 4 pppp é para ser substituído por dois pês
