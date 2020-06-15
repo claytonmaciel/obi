@@ -1,6 +1,10 @@
+#==================================#
+# Questão Distância entre amigos   #
+#==================================#
+
 N = int(input())
 predios = [int(i) for i in input().split()]
-#print(predios)
+
 m_dist = 0
 for x in range(N-1):
     for y in range(x+1,N):
