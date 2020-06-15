@@ -1,3 +1,7 @@
+#==========================#
+# Questão Nota Cortada     #
+#==========================#
+
 B = int(input())
 T = int(input())
 Area_total = 70 * 160
