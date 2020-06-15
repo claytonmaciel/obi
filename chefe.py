@@ -1,3 +1,7 @@
+#==========================#
+# Questão O chefe          #
+#==========================#
+
 N, M, I = [int(i) for i in input().split()]
 idades = [int(i) for i in input().split()]
 
