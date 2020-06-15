@@ -1,3 +1,7 @@
+#==========================#
+# Questão Ilhas            #
+#==========================#
+
 def dijkstra(grafo, servidor):
     nos_nao_visitados = grafo.copy()  # a princípio é o grafo completo já que não visitamos nenhum nó.
     custos = {}  # Armazena os custos acumulados de cada nó a partir do servidor. Será atualizado à medida que avançamos no grafo.
